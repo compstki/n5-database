@@ -1,7 +1,7 @@
 REM   Script: bike and staff
 REM   SQA N5 Computing Science example
 
-DROP TABLE staff
+DROP TABLE staff;
 
 
 CREATE TABLE staff( 
@@ -95,7 +95,7 @@ INSERT INTO staff(employeeNumber,surname,address,telephone,expertise,startDate,c
 
 INSERT INTO staff(employeeNumber,surname,address,telephone,expertise,startDate,contractHours,tempWorker) VALUES (15,'Salvatore','82 Erie Junction','0262-267-0550','Sales',to_date('18/07/2011','dd/mm/yyyy'),to_date('04:00:00','HH24:MI:SS'),'FALSE');
 
-DROP table bike
+DROP table bike;
 
 
 CREATE TABLE bike( 
