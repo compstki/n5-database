@@ -31,13 +31,13 @@ ADD CONSTRAINT VLOGGER_CK
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(3, 'Noah', 'Sim', 'Noalng', 'Gaming');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(4, 'Phil', 'Oakley', 'Philng', 'Baking');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(5, 'Mirren', 'Jesse', 'Mirlng', 'Makeup');
-INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(6, 'Christina', 'Morrison', 'Chrlng', 'Making');
+INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(6, 'Christina', 'Morrison', 'Chrlng', 'Makeup');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(7, 'Logan', 'Vlogmas', 'Loglng', 'Programming');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(8, 'Zoella', 'Jeana', 'Zoelng', 'Clothes');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(9, 'Casey', 'James', 'Caslng', 'Programming');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(10, 'Joey', 'Tens', 'Joelng', 'Makeup');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(11, 'Grace', 'Point', 'Gralng', 'Gaming');
-INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(12, 'Aidan', 'Marbles', 'Aidlng', 'Making');
+INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(12, 'Aidan', 'Marbles', 'Aidlng', 'Makeup');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(13, 'Jenna', 'Matthews', 'Jenlng', 'Clothes');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(14, 'Charlie', 'Choc', 'Chalng', 'Baking');
 INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(15, 'Stephen', 'Brothers', 'Stelng', 'Programming');
