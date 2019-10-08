@@ -9,11 +9,11 @@ alter table "VLOGGER" DROP CONSTRAINT username_con_len;
 DROP TABLE VLOGGER;
 
 CREATE TABLE VLOGGER(
-    vLoggerID NUMBER(4,0) NOT NULL,
-    forename      VARCHAR2(20) NOT NULL,
-    surname        VARCHAR2(20) NOT NULL,
-    username        VARCHAR2(6) NOT NULL,
-    expertise  VARCHAR2(15) NOT NULL);
+    vLoggerID NUMBER NOT NULL,
+    forename VARCHAR2(20) NOT NULL,
+    surname VARCHAR2(20) NOT NULL,
+    username VARCHAR2(6) NOT NULL,
+    expertise VARCHAR2(15) NOT NULL);
 
 
 ALTER TABLE VLOGGER
@@ -44,13 +44,13 @@ INSERT INTO VLOGGER (vloggerID, forename, surname, username, expertise) VALUES(1
 
 
 CREATE TABLE VIDEO(
-    videoID number(2,0) NOT NULL,
-    vLoggerID NUMBER(2,0) NOT NULL,
-    videoName      VARCHAR2(30) NOT NULL,
-    duration        NUMBER(3,0) NOT NULL,
+    videoID NUMBER NOT NULL,
+    vLoggerID NUMBER NOT NULL,
+    videoName VARCHAR2(30) NOT NULL,
+    duration NUMBER NOT NULL,
     dateCreated DATE NOT NULL,
-    content  VARCHAR2(40) NOT NULL,
-    rating NUMBER (1,0) NOT NULL);
+    content VARCHAR2(40) NOT NULL,
+    rating NUMBER NOT NULL);
 
 ALTER TABLE VIDEO
 ADD CONSTRAINT VIDEO_pk 
