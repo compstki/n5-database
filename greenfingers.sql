@@ -12,7 +12,7 @@ CREATE TABLE JOBDETAILS(
   ,customername VARCHAR2(40) NOT NULL 
   ,address      VARCHAR2(50) NOT NULL 
   ,postcode     VARCHAR2(8) NOT NULL 
-  ,telephone    VARCHAR2(11) NOT NULL 
+  ,telephone    VARCHAR2(11)
   ,task         VARCHAR2(9) NOT NULL 
   ,staffID      VARCHAR2(5) NOT NULL 
 );
@@ -65,7 +65,7 @@ CREATE TABLE GF_STAFF(
   ,surname    VARCHAR(20) NOT NULL 
   ,address    VARCHAR(50) NOT NULL 
   ,topSkill   VARCHAR(5) NOT NULL 
-  ,custRating NUMBER NOT NULL 
+  ,custRating NUMBER
 );
 
 INSERT INTO GF_STAFF(staffID,forename,surname,address,topSkill,custRating) VALUES ('DS001','Alison','Duncan','44 Main Street, Falkirk, FK47 5RT','lawn',10);
